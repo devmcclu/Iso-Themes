@@ -28,7 +28,7 @@ The image files for these elements can be found in the Iso_Dark/pngs/ folder in 
 
 ### How to make modifications
 A full guide to theme modification is outside of the scope of this readme, but the following should help you get started.
-* In the editor, in any scene, you can open the ```iso_dark.thm``` by going to the resources tab and clicking the folder icon.
+* In the editor, in any scene, you can open the ```iso_dark.theme``` by going to the resources tab and clicking the folder icon.
 * Selecting the theme should show you an overview of the them, but it's rather limited, and won't have the correct backround color. If you would like to get a better overview of your changes, there is a scene file, ```Iso_Dark/ui_overview.tscn``` in the zip archive. Apply your new theme to the Control node to keep track of changes.
 * After loading the theme, elements can be modified in the inspector. If you have used image resources before, this should be fairly straight forward.
 * To modify existing elements, you'll want to use [Inkscape](http://www.inkscape.org) to edit the files contained in the ```Iso_Dark/svgs/``` folder. All items are named in the form ```element_attribute.svg```. If you wish to create elements from scratch, feel free to use your program of choice.
